@@ -7,6 +7,7 @@
 ```
 
 # 使用方法
+需要root权限
 ```shell
 ➜ sudo python3 scan.py -h                           
 usage: scan.py [-h] [-f FILE] [-o OUTPUT]
@@ -17,6 +18,9 @@ optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE
   -o OUTPUT, --output OUTPUT
+```
+```shell
+➜ sudo python3 scan.py -f naabu_result.txt -o nmap_result.csv
 ```
 # 结果
 保存为csv格式的文件
